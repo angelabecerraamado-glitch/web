@@ -3,6 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí - Ángela Becerra Amado</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fde2f3, #e4d1ff);
+      color: #333;
+    }
+
+    header {
+      background-color: #b76e79;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #b76e79;
+      border-bottom: 2px solid #b76e79;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      margin-bottom: 25px;
+      line-height: 1.8;
+      font-size: 1.1em;
+    }
+
+    .info strong {
+      color: #b76e79;
+    }
+
+    .intereses, .contacto {
+      margin-top: 30px;
+    }
+
+    .contacto a {
+      display: inline-block;
+      margin: 10px 10px;
+      text-decoration: none;
+      background-color: #b76e79;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .contacto a:hover {
+      background-color: #a15863;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #b76e79;
+      color: white;
+      font-size: 0.9em;
+      letter-spacing: 0.5px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .contenedor {
+        margin: 20px;
+        padding: 20px;
+      }
+      .contacto a {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ángela Becerra Amado</h1>
+    <p>Estudiante de Administración de Negocios y Diseño de Modas</p>
+  </header>
+
+  <section class="contenedor">
+    <div class="info">
+      <h2>Información Personal</h2>
+      <p><strong>Nombre:</strong> Ángela Becerra Amado</p>
+      <p><strong>Edad:</strong> 19 años</p>
+      <p><strong>Semestre:</strong> III y II</p>
+      <p><strong>Estudios:</strong> Universidad San Pablo e Instituto del Sur</p>
+      <p><strong>Materia:</strong> Pensamiento Computacional</p>
+      <p><strong>Carreras:</strong> Administración de Negocios y Diseño de Modas</p>
+    </div>
+
+    <div class="intereses">
+      <h2>Intereses y Hobbies</h2>
+      <p><strong>Intereses:</strong> Las Artes</p>
+      <p><strong>Hobbies:</strong> Conectar con la naturaleza, pintar y dibujar</p>
+    </div>
+
+    <div class="contacto">
+      <h2>Contacto</h2>
+      <a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">LinkedIn</a>
+      <a href="mailto:angela.becerraamado@gmail.com">Correo electrónico</a>
+      <a href="https://www.instagram.com/rosa_roja2023" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 | Página creada por Ángela Becerra Amado
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mis Cursos 2025 - Ángela Becerra Amado</title>
   <style>
     body {
